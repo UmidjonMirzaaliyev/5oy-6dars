@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forma va Jadval</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h2>Forma</h2>
+      <label for="name">Ism:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone">Mobile Number</label>
+      <input type="number" id="number" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" required />
+      
+      
+
+      <button onclick="addData()">Qo'shish</button>
+    </div>
+
+    <h2>Jadval</h2>
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Ism</th>
+          <th>Email</th>
+          <th>Password</th>
+          <th>Phone number</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- Ma'lumotlar shu yerda paydo bo'ladi -->
+      </tbody>
+    </table>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
